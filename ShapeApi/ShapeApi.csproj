@@ -7,6 +7,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\" />
     <Folder Include="Shape\" />
+    <Folder Include="Json\" />
   </ItemGroup>
 
   <ItemGroup>
