@@ -9,13 +9,13 @@ namespace ShapeApi.Json
         internal string shape;
 
         [DataMember]
-        internal int area;
+        internal uint area;
 
         [DataMember]
-        internal int side1;
+        internal uint side1;
 
         [DataMember]
-        internal int side2;
+        internal uint side2;
 
         [DataMember]
         internal string result;

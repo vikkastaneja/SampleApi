@@ -3,13 +3,13 @@ namespace ShapeApi.Shape
 {
     public class Square : Shape
     {
-        private readonly int side;
-        public Square(int side)
+        private readonly uint side;
+        public Square(uint side)
         {
             this.side = side;
         }
 
-        public int Area()
+        public uint Area()
         {
             return side * side;
         }

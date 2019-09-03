@@ -16,7 +16,7 @@ namespace ShapeApi.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<string> Get(string shape, int side1, int side2)
+        public ActionResult<string> Get(string shape, uint side1, uint side2)
         {
             var jshape = new JsonShape();
             jshape.shape = shape.ToLower();
@@ -30,7 +30,7 @@ namespace ShapeApi.Controllers
                 return GetResultString(jshape);
             }
 
-            var result = 0;
+            uint result = 0;
             Shape.Shape s = null;
             switch (shape.ToLower())
             {
